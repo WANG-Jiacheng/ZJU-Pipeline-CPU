@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../Lab10-code/ip/Rom/sim/Rom.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

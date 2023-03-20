@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Core_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Core_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="231800001fs"></ZoomEndTime>
+      <Cursor1Time time="105820000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/Core_tb/addr_out" type="array">
+      <obj_property name="ElementShortName">addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/csr_flag" type="array">
+      <obj_property name="ElementShortName">csr_flag[2:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_flag[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/auipc_flag" type="logic">
+      <obj_property name="ElementShortName">auipc_flag</obj_property>
+      <obj_property name="ObjectShortName">auipc_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/IFID_pc" type="array">
+      <obj_property name="ElementShortName">IFID_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/IFID_inst" type="array">
+      <obj_property name="ElementShortName">IFID_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/IDEX_PC" type="array">
+      <obj_property name="ElementShortName">IDEX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/IDEX_Inst" type="array">
+      <obj_property name="ElementShortName">IDEX_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/EXMEM_PC" type="array">
+      <obj_property name="ElementShortName">EXMEM_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/EXMEM_Inst" type="array">
+      <obj_property name="ElementShortName">EXMEM_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/MEMWB_PC" type="array">
+      <obj_property name="ElementShortName">MEMWB_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/MEMWB_Inst" type="array">
+      <obj_property name="ElementShortName">MEMWB_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/alu/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/alu/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/alu/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/alu/alu_op" type="array">
+      <obj_property name="ElementShortName">alu_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/alu/res" type="array">
+      <obj_property name="ElementShortName">res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/immgen/imm_input" type="array">
+      <obj_property name="ElementShortName">imm_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/immgen/is_csr" type="array">
+      <obj_property name="ElementShortName">is_csr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">is_csr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/immgen/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/immgen/imm_output" type="array">
+      <obj_property name="ElementShortName">imm_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/read_data_1" type="array">
+      <obj_property name="ElementShortName">read_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/read_data_2" type="array">
+      <obj_property name="ElementShortName">read_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/read_addr_1" type="array">
+      <obj_property name="ElementShortName">read_addr_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/read_addr_2" type="array">
+      <obj_property name="ElementShortName">read_addr_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/id_ex_rs1" type="array">
+      <obj_property name="ElementShortName">id_ex_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/id_ex_rs2" type="array">
+      <obj_property name="ElementShortName">id_ex_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ex_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/ex_mem_rd" type="array">
+      <obj_property name="ElementShortName">ex_mem_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/mem_wb_rd" type="array">
+      <obj_property name="ElementShortName">mem_wb_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/mret_flag" type="logic">
+      <obj_property name="ElementShortName">mret_flag</obj_property>
+      <obj_property name="ObjectShortName">mret_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/ex_mem_csr" type="array">
+      <obj_property name="ElementShortName">ex_mem_csr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_csr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/alu_src_b" type="logic">
+      <obj_property name="ElementShortName">alu_src_b</obj_property>
+      <obj_property name="ObjectShortName">alu_src_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/ex_mem_regwrite" type="logic">
+      <obj_property name="ElementShortName">ex_mem_regwrite</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/mem_wb_regwrite" type="logic">
+      <obj_property name="ElementShortName">mem_wb_regwrite</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/forwardingunit/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux3t1_a/IDEX_Data1" type="array">
+      <obj_property name="ElementShortName">IDEX_Data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_Data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux3t1_a/EXMEM_Rd" type="array">
+      <obj_property name="ElementShortName">EXMEM_Rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_Rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux3t1_a/MEMWB_Rd" type="array">
+      <obj_property name="ElementShortName">MEMWB_Rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_Rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux_alu/I0" type="array">
+      <obj_property name="ElementShortName">I0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux_alu/I1" type="array">
+      <obj_property name="ElementShortName">I1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux_alu/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux_alu/o" type="array">
+      <obj_property name="ElementShortName">o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux3t1_b/resultB" type="array">
+      <obj_property name="ElementShortName">resultB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">resultB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux3t1_a/resultA" type="array">
+      <obj_property name="ElementShortName">resultA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">resultA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/csr_flag_write" type="array">
+      <obj_property name="ElementShortName">csr_flag_write[2:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_flag_write[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/MEMWB_csr_flag" type="array">
+      <obj_property name="ElementShortName">MEMWB_csr_flag[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_csr_flag[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/CSRREG_read" type="array">
+      <obj_property name="ElementShortName">CSRREG_read[11:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRREG_read[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/CSRREG_write" type="array">
+      <obj_property name="ElementShortName">CSRREG_write[11:0]</obj_property>
+      <obj_property name="ObjectShortName">CSRREG_write[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/mstatus" type="array">
+      <obj_property name="ElementShortName">mstatus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mstatus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/mtvec" type="array">
+      <obj_property name="ElementShortName">mtvec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtvec[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/mepc" type="array">
+      <obj_property name="ElementShortName">mepc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mepc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/regs/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/mem_write" type="logic">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/addr_out" type="array">
+      <obj_property name="ElementShortName">addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/core_data_out" type="array">
+      <obj_property name="ElementShortName">core_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_data_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/data_out_1" type="array">
+      <obj_property name="ElementShortName">data_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/IDEX_data_out_1" type="array">
+      <obj_property name="ElementShortName">IDEX_data_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_data_out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/EXMEM_data_out_1" type="array">
+      <obj_property name="ElementShortName">EXMEM_data_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_data_out_1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux4_out" type="array">
+      <obj_property name="ElementShortName">mux4_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux4_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux/I0" type="array">
+      <obj_property name="ElementShortName">I0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux/I1" type="array">
+      <obj_property name="ElementShortName">I1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux/I2" type="array">
+      <obj_property name="ElementShortName">I2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux/I3" type="array">
+      <obj_property name="ElementShortName">I3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/mux/s" type="array">
+      <obj_property name="ElementShortName">s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/AfterMEMWB_Inst" type="array">
+      <obj_property name="ElementShortName">AfterMEMWB_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AfterMEMWB_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Core_tb/uut/cpu/datapath/After_mux_out" type="array">
+      <obj_property name="ElementShortName">After_mux_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">After_mux_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
